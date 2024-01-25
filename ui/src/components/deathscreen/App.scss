@@ -1,0 +1,110 @@
+@import "./_variables.scss";
+@font-face {
+  font-family: SFUIDisplay-Regular;
+  src: url("./assets/fonts/SFUIDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: SFUIDisplay-Medium;
+  src: url("./assets/fonts/SFUIDisplay-Medium.ttf");
+}
+@font-face {
+  font-family: SFUIDisplay-SemiBold;
+  src: url("./assets/fonts/SFUIDisplay-SemiBold.ttf");
+}
+
+.App {
+  > .darken {
+    display: block;
+    width: get-vh(960px);
+
+    background: linear-gradient(90deg, rgba(5, 6, 19, 0.79) 0%, rgba(0, 0, 0, 0) 93.54%);
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  > svg.skull {
+    width: get-vh(615px);
+    height: get-vh(897px);
+    position: absolute;
+    top: get-vh(183px);
+    left: 0;
+  }
+
+  > .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: absolute;
+    bottom: get-vh(132px);
+    left: get-vh(70px);
+
+    > .title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      > span:first-child {
+        color: #fff;
+
+        font-family: SFUIDisplay-SemiBold, sans-serif;
+        font-weight: 600;
+        font-size: get-vh(48px);
+        line-height: get-vh(57px);
+      }
+      > span:last-child {
+        color: rgba(255, 255, 255, 0.5);
+
+        font-family: SFUIDisplay-Regular, sans-serif;
+        font-weight: 400;
+        font-size: get-vh(24px);
+        line-height: get-vh(29px);
+
+        margin-top: get-vh(10px);
+
+        > b {
+          color: #fff;
+          font-family: SFUIDisplay-Medium, sans-serif;
+          font-weight: 500;
+        }
+      }
+    }
+
+    > .killer {
+      display: flex;
+      align-items: center;
+
+      margin-top: get-vh(40px);
+
+      > svg {
+        width: get-vh(24px);
+        height: get-vh(24px);
+      }
+
+      > span {
+        color: rgba(255, 255, 255, 0.5);
+
+        font-family: SFUIDisplay-Regular, sans-serif;
+        font-weight: 400;
+        font-size: get-vh(24px);
+        line-height: get-vh(29px);
+
+        margin-left: get-vh(15px);
+
+        > b {
+          color: #fff;
+          font-family: SFUIDisplay-Medium, sans-serif;
+          font-weight: 500;
+        }
+      }
+    }
+
+    > .buttons {
+      display: flex;
+      margin-top: get-vh(15px);
+    }
+  }
+}

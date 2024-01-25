@@ -1,0 +1,695 @@
+
+
+.bj_bottom_box {
+    width: 100%;
+    height: 110px;
+    background: linear-gradient(0deg, rgba(4, 4, 4, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.leave-bj {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    width: 247px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+    cursor: pointer;
+}
+
+
+
+.bj-game-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.bj-your-bid {
+    width: 265px;
+    height: 60px; 
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.bj-bid-text {
+    padding-left: 55px;
+    display: flex;
+    justify-content: center;
+    width: 23%;
+}
+
+.bj-amount-of-chips-acc {
+    width: 147px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.bj-text-amount-chips {
+    padding-left: 10px;
+}
+
+.bj-block-of-chips-amount-acc-open-bid {
+    margin-bottom: 45px;
+}
+
+.bj-block-of-chips-amount-acc {
+    margin-bottom: 0px;
+}
+
+.bj-BidWin {
+    color: #F2C94C;
+    text-shadow: 0px 0px 30px #F2C94C;
+    margin-bottom: 15px;
+}
+
+.bj-BidLost {
+    color: #EB5757;
+    text-shadow: 0px 0px 30px #EB5757;
+    margin-bottom: 15px;
+}
+
+.bj-your-move {
+    width: 383px;
+    height: 56px;
+    margin-left: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bj-do-bid {
+    display: flex;
+    width: 339px;
+    height: 60px;
+    background: #2481B6;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-left: 30px;
+    cursor: pointer;
+    animation: displayDoBid 2.5s forwards;
+}
+
+@keyframes displayDoBid {
+    0% {
+        transform: translateY(200px);
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+    }
+    100% {
+          transform: translateY(0px);
+          height: 60px;
+          width: 339px;
+          font-size: 16px;
+        }
+  }
+
+
+.bj-do-bid-waiting-page-active{
+    display: flex;
+    width: 339px;
+    height: 60px;
+    background: #2481B6;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-left: 30px;
+    animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+    0% {transform: translateY(0px);
+        ;}
+    40% {width: 339px;
+        height: 60px;}
+    98% {font-size: 16px;}
+    99% {font-size: 0px;}
+    100% {
+          transform: translateY(200px);
+          width: 0px;
+          height: 0px;
+        }
+  }
+
+.bj-more-button {
+    transform: translateY(200px);
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2481B6;
+    border-radius: 50px;
+    animation: more 2.5s forwards;
+    cursor: pointer;
+}
+
+.bj-enough-button {
+    transform: translateY(200px);
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 148px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    animation: enough 2.5s forwards;
+    cursor: pointer;
+}
+
+@keyframes more {
+    0% {transform: translateY(200px);
+    width: 0px;
+        height: 0px;
+        font-size: 0px;}
+    100% {
+          transform: translateY(0px);
+          width: 159px;
+          height: 60px;
+          font-size: 16px;
+        }
+  }
+
+  @keyframes enough {
+    0% {transform: translateY(200px);
+    width: 0px;
+        height: 0px;
+        font-size: 0px;}
+    100% {
+          transform: translateY(0px);
+          width: 148px;
+          height: 60px;
+          font-size: 16px;
+        }
+  }
+
+.bj-more-button-down {
+    transform: translateY(0px);
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2481B6;
+    border-radius: 50px;
+    animation: moreDown 2.5s forwards;
+    cursor: pointer;
+}
+
+.bj-enough-button-down {
+    transform: translateY(0px);
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 148px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    animation: enoughDown 2.5s forwards;
+    cursor: pointer;
+}
+
+@keyframes moreDown {
+    0% {transform: translateY(0px);
+        margin-left: 30px;}
+    10% {width: 159px;
+        height: 60px;
+        font-size: 16px;}
+    100% {
+          transform: translateY(200px);
+          width: 0px;
+          height: 0px;
+          font-size: 0px;
+          margin-left: 0px;
+        }
+  }
+
+  @keyframes enoughDown {
+    0% {transform: translateY(0px);
+        margin-left: 30px;}
+    10% {width: 148px;
+        height: 60px;
+        font-size: 16px;}
+    100% {
+          transform: translateY(200px);
+          width: 0px;
+          height: 0px;
+          font-size: 0px;
+          margin-left: 0px;
+        }
+  }
+
+.bj-bid-input {
+    -webkit-appearance: none;
+    background: rgba(217, 217, 217, 0);
+    border: none;
+    width: 23%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+    padding-left: 5px;
+}
+
+.faq_conteiner_first_page {
+    background: rgba(4, 4, 4, 0.75);
+    border-radius: 5px;
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -600px;
+    margin-top: -300px;
+}
+
+.bj-game-conteiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*background: grey;*/
+}
+
+.faq_conteiner_header_close_first_page {
+    width: 100%;
+    height: 126px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 45px;
+}
+
+.faq_conteiner_header_close_img_first_page{
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.faq_page_first_page_info {
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.75);
+
+}
+
+.faq_slide_conteiner_first_page {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 45px;
+}
+
+.faq_slide_conteiner_img_first_page {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.faq_conteiner_second_page {
+    background: rgba(4, 4, 4, 0.75);
+    border-radius: 5px;
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    margin-left: -600px;
+    margin-top: -300px;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.first_stroke_blocks {
+    display: flex;
+    flex-direction: column;
+    width: 392px;
+    height: 600px;
+    box-sizing: border-box;
+    padding-top: 45px;
+    margin-right: 20px;
+}
+
+.second_stroke_blocks {
+    display: flex;
+    flex-direction: column;
+    width: 529px;
+    height: 600px;
+    box-sizing: border-box;
+    padding-top: 45px;
+}
+
+.first_block {
+    width: 392px;
+    height: 157px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 41.2791px rgba(253, 252, 252, 0.05);
+    border-radius: 41px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+}
+
+.second_block {
+    width: 529px;
+    height: 157px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 41.2791px rgba(253, 252, 252, 0.05);
+    border-radius: 41px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-top: 8px;
+}
+
+.first_block:first-child {
+    margin-top: 0px;
+}
+
+.second_block:first-child {
+    margin-top: 0px;
+}
+
+.blocks_header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.blocks_info {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.045em;
+    color: rgba(255, 255, 255, 0.75); 
+    margin-top: 7px;   
+}
+
+.faq_page_second_page_info {
+    width: 1070px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.faq_conteiner_header_close_second_page img {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.faq_conteiner_header_close_second_page {
+    width: 130px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 68px;
+}
+
+.open_faq_icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.game_container-bj {
+    margin-top: auto;
+    width: 100%;
+}
+
+.your-bid-bj:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.your-bid-bj {
+    width: 265px;
+    height: 60px; 
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.your-bid-bj-disabled {
+    width: 265px;
+    height: 60px; 
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    border: 2px solid #EB5757;
+}
+
+.your-bid-bj-disabled svg {
+    pointer-events: none;
+}
+
+.your-bid-bj svg {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.your-bid-bj:hover svg {
+    fill: white;
+    fill-opacity: 1;
+}
+
+.active_bid_box-bj {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.other_player_block {
+    position: absolute;
+    width: 119px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgba(30, 30, 30, 0.35);
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+}
+
+.bid_param_block_go_down {
+    animation: bidParamGoDown 2.5s forwards;
+    display: flex;
+    flex-direction: row;
+    transform: translate(0px, 0px);
+    
+}
+
+@keyframes bidParamGoDown {
+    0% {transform: translate(0px, 0px);
+        width: 157px;
+        height: 110px;
+    }
+    100% {
+          transform: translate(0px, 200px);
+          width: 0px;
+          height: 0px;
+        }
+  }
+
+
+.bid_param_block-bj {
+    display: flex;
+    flex-direction: row;
+    animation: bidParamGoUp 2.5s forwards;
+    transform: translateY(200px);
+}
+
+@keyframes bidParamGoUp {
+    0% {transform: translateY(200px);
+        width: 0px;
+        height: 0px;
+    }
+    100% {
+          transform: translateY(0px);
+          width: 157px;
+          height: 110px;
+        }
+  }
+
+.getBlockChipsAmountToBid-up {
+    animation: blockBidChipsUp 2.5 forwards;
+    transform: translateY(200px);
+
+}
+
+.getBlockChipsAmountToBid-down {
+    animation: blockBidChipsDown 2.5 forwards;
+    transform: translateY(0px);
+}
+
+@keyframes blockBidChipsUp {
+    0% {transform: translateY(200px);
+        width: 0px;
+        height: 0px;
+    }
+    100% {
+          transform: translateY(0px);
+          width: auto;
+          height: auto;
+        }
+  }
+
+  @keyframes blockBidChipsDown {
+    0% {transform: translateY(0px);
+        width: auto;
+        height: auto;
+    }
+    100% {
+          transform: translateY(0px);
+          width: 0px;
+          height: 0px;
+        }
+  }

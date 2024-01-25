@@ -1,0 +1,303 @@
+
+.radialmenu__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999999;
+    background: url(../icons/image\ 8.png);
+}
+
+.menu-block {
+    position: relative;
+    width: 1220px;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    font-family: 'Montserrat';
+}
+
+.menu-block .circle {
+    position: relative;
+    width: 330px;
+    height: 450px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 120px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-block .circle span {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.menu-block .btns {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-block .menu-item {
+    position: absolute;
+    width: 385px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    background: linear-gradient(270deg, rgba(13, 13, 13, 0.9) -231.46%, rgba(38, 38, 38, 0.9) -65.73%, rgba(13, 13, 13, 0.9) 100%);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.menu-block .menu-item::first-letter {
+    text-transform: uppercase;
+}
+
+.menu-block .menu-item img {
+    margin-right: 17px;
+    margin-left: -27px;
+    pointer-events: none;
+    width: 28px;
+}
+
+.menu-block .item-0 {
+    right: 835px;
+    bottom: 355px;
+    background: url(../icons/menu-item-rest-0.png) no-repeat;
+}
+
+.menu-block .item-0:hover {
+    background: url(../icons/menu-item-hover-0.png) no-repeat;
+}
+
+.menu-block .item-1 {
+    right: 835px;
+    bottom: 235px;
+    background: url(../icons/menu-item-rest-1.png) no-repeat;
+}
+
+.menu-block .item-1:hover {
+    background: url(../icons/menu-item-hover-1.png) no-repeat;
+}
+
+.menu-block .item-2 {
+    right: 835px;
+    bottom: 115px;
+    background: url(../icons/menu-item-rest-2.png) no-repeat;
+}
+
+.menu-block .item-2:hover {
+    background: url(../icons/menu-item-hover-2.png) no-repeat;
+}
+
+.menu-block .item-3 {
+    right: 835px;
+    bottom: 0px;
+    background: url(../icons/menu-item-rest-3.png) no-repeat;
+}
+
+.menu-block .item-3:hover {
+    background: url(../icons/menu-item-hover-3.png) no-repeat;
+}
+
+.menu-block .item-4 {
+    left: 835px;
+    bottom: 355px;
+    background: url(../icons/menu-item-rest-4.png) no-repeat;
+}
+
+.menu-block .item-4:hover {
+    background: url(../icons/menu-item-hover-4.png) no-repeat;
+}
+
+.menu-block .item-5 {
+    left: 835px;
+    bottom: 235px;
+    background: url(../icons/menu-item-rest-5.png) no-repeat;
+    background-position: right;
+}
+
+.menu-block .item-5:hover {
+    background: url(../icons/menu-item-hover-5.png) no-repeat;
+    background-position: right;
+}
+
+.menu-block .item-6 {
+    left: 835px;
+    bottom: 115px;
+    background: url(../icons/menu-item-rest-6.png) no-repeat;
+    background-position: right;
+}
+
+.menu-block .item-6:hover {
+    background: url(../icons/menu-item-hover-6.png) no-repeat;
+    background-position: right;
+}
+
+.menu-block .item-7 {
+    left: 835px;
+    bottom: 0px;
+    background: url(../icons/menu-item-rest-7.png) no-repeat;
+}
+
+.menu-block .item-7:hover {
+    background: url(../icons/menu-item-hover-7.png) no-repeat;
+}
+
+/* .menu-block .menu-item:hover img {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+} */
+
+.menu-block .no-active {
+    opacity: 0;
+}
+
+.no-active {
+    opacity: 0;
+}
+
+.menu-block .no-active-item {
+    top: 160px;
+    left: 250px;
+    bottom: 160px;
+    right: 252px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.close {
+    background: url(../icons/close_menu-rest.svg) no-repeat;
+    background-size: cover;
+    width: 68px;
+    height: 68px;
+    cursor: pointer;
+    transition: all 0.5s;
+    pointer-events: all;
+}
+
+.close:hover {
+    background: url(../icons/close_menu-hover.svg) no-repeat;
+    background-size: cover;
+    width: 68px;
+    height: 68px;
+}
+
+#back {
+    background: url(../icons/back_menu-rest.svg) no-repeat;
+    background-size: cover;
+    width: 68px;
+    height: 68px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+    pointer-events: all;
+}
+
+#back:hover {
+    background: url(../icons/back_menu-hover.svg) no-repeat;
+    background-size: cover;
+    width: 68px;
+    height: 68px;
+}
+
+.rotate_buttons {
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    margin-top: 122px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-block .circle .player_name {
+    font-family: 'Montserrat';
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-block .circle .player_id {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+@media (min-width: 2560px) {
+    .menu-block {
+        zoom: 1.4;
+    }
+}
+
+@media (max-width: 1600px) {
+    .menu-block {
+        zoom: 0.9;
+    }
+}
+
+@media (max-width: 1440px) {
+    .menu-block {
+        zoom: 0.9;
+    }
+}
+
+@media (max-width: 1366px) {
+    .menu-block {
+        zoom: 0.8;
+    }
+}
+
+@media (max-width: 1280px) {
+    .menu-block {
+        zoom: 0.8;
+    }
+}
+
+@media (max-width: 1024px) {
+    .menu-block {
+        zoom: 0.7;
+    }
+}
+
+@media (max-width: 800px) {
+    .menu-block {
+        zoom: 0.6;
+    }
+}

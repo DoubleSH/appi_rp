@@ -1,0 +1,90 @@
+.car-indicator-wrapper{
+    position: relative;
+    right: 49px;
+    z-index: 1;
+}
+.car-indicator-speed{
+
+}
+.car-indicators{
+    position: absolute;
+    left: 130px;
+    bottom: -10px;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.car-indicators > img{
+ 
+}
+.car-indicators-img{
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.car-indicators-img-last{
+    margin-right: 15px;
+    margin-bottom: 5px;
+
+}
+.car-indicator-fuel-icon{
+    margin-right: 40px;
+}
+.indicator-speed__number-transmission{
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    z-index: 100;
+
+}
+.number-transmission__wrapper-span{
+    height: 20px;
+    color: rgba(255, 255, 255, 0);
+
+    position: relative;
+    left: 20px;
+    transition: all 1s ease  0s;
+}
+.number-transmission__wrapper-span > span {
+    margin-right: 11px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.number-transmission__wrapper-span > .active-speed{
+    color: rgba(255, 255, 255, 1);
+}
+.indicator-transmission-type{
+    position: absolute;
+    top: 41px;
+    left: 85px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+.active-speed {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.indicator-speed__text-speed{
+
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    font-style: italic;
+    
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}

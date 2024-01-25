@@ -1,0 +1,964 @@
+/* body {
+    background-color: brown;
+}  */
+.hud-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    /* z-index: -1; */
+}
+.hud-position-leftop {
+    margin-right: auto;
+    margin-bottom: auto;
+    position: absolute;
+}
+.hud-position-rightbottom {
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.hud-position-leftbottom {
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.text-stroke {
+    text-shadow: 1px 1px 2px black;
+}
+
+.radialmenu__slice__title {
+    font-family: 'Gotham Pro Medium';
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.radialmenu__center__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.radialmenu__container {
+    z-index: 111;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-hud {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.phud-mic {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    margin-right: 2px;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phud-mic .mic-img {
+    background: url(../img/microphone-mute.png) no-repeat;
+    width: 36px;
+    height: 36px;
+}
+
+.phud-mic .mic-img.active {
+    background: url(../img/microphone-active.png) no-repeat;
+}
+.phud-needs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+    padding: 5px 3px 6px 8px;
+}
+
+.needs-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.needs-box:last-child {
+    margin-top: 4px;
+}
+
+.needs-box .img-drink {
+    background: url(../img/water.png) no-repeat;
+    background-position: center;
+    width: 17px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.needs-box .img-eat {
+    background: url(../img/eat.png) no-repeat;
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    margin-left: 1px;
+}
+
+.line-scale.liner-needs {
+    width: 91px;
+}
+
+.needs-text {
+    font-family: "Gotham Pro Medium";
+    font-size: 9px;
+    color: #fff;
+    margin-left: 4px;
+    width: 22px;
+    text-align: left;
+}
+
+.phud-money {
+    width: 164px;
+    margin-left: 2px;
+    margin-right: 41px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 3px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.money-box {
+    display: flex;
+    align-items: center;
+}
+
+.money-box:last-child {
+    margin-top: 8px;
+}
+
+.money-box .img-wallet {
+    background: url(../img/money.png) no-repeat;
+    width: 25px;
+    height: 17px;
+    margin-right: 8px;
+}
+
+.money-box .img-credit-card {
+    background: url(../img/card.png) no-repeat;
+    width: 25px;
+    height: 17px;
+    margin-right: 7px;
+}
+
+.wallet-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.credit-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(#fff, 0.8);
+    white-space: nowrap;
+}
+
+.use-mic {
+    filter: brightness(0) saturate(100%) invert(59%) sepia(82%) saturate(454%) hue-rotate(169deg) brightness(97%) contrast(96%);
+}
+
+.car-hud {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.elements-auto {
+    width: auto;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    margin-right: 2px;
+    padding: 0 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bak-oil {
+    width: 164px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 6px 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.light-auto {
+    background: url(../img/light.png) no-repeat;
+    width: 32px;
+    height: 20px;
+}
+
+.light-auto.active {
+    background: url(../img/light-active.png) no-repeat;
+}
+
+.off-door-auto {
+    background: url(../img/car.png) no-repeat;
+    width: 53px;
+    height: 34px;
+    margin-left: 13px;
+}
+
+.on-door-auto {
+    background: url(../img/car-active.png) no-repeat;
+    width: 53px;
+    height: 34px;
+    margin-left: 13px;
+}
+
+.key-auto {
+    background: url(../img/key.png) no-repeat;
+    width: 30px;
+    height: 19px;
+    margin-left: 13px;
+}
+
+.key-auto.active {
+    background: url(../img/key-active.png) no-repeat;
+}
+
+.line-scale {
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.line-scale-active {
+    background: #51B9F0;
+    border-radius: 10px;
+    height: 7px;
+    position: absolute;
+    transition-duration: 0.2s;
+}
+
+.oil-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    display: flex;
+    color: #fff;
+}
+
+.oil-tt {
+    margin-left: 4px;
+}
+
+.oil-num {
+    margin-left: auto;
+}
+
+.oil-liner {
+    margin-top: 8px;
+}
+
+.full-liner {
+}
+
+.speedbox-main {
+    margin-bottom: 26px;
+    width: 432px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.speedbox-main-small {
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-right: 90px;
+    margin-left: auto;
+    /* zoom: 0.45; */
+}
+
+.speedbox-main-small::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 13px;
+    bottom: 0;
+    left: 3px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.speedbox-small {
+    font-family: "Gotham Pro Regular";
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    position: relative;
+}
+
+.speedbox {
+    display: flex;
+    position: relative;
+    width: 254px;
+    overflow: hidden;
+    height: 127px;
+    background: url(../img/speed.svg) no-repeat;
+    background-size: 100% auto;
+    transform: rotate(2deg);
+}
+
+.speedbox-scale {
+    position: absolute;
+    top: 100%;
+    left: 5px;
+    width: 244px;
+    height: 100%;
+    background: url(../img/speed-scale.svg) no-repeat;
+    background-size: 100% auto;
+    transform-origin: top center;
+}
+
+.speedbox-groove {
+    width: 390px;
+    height: 195px;
+    background: transparent;
+    border-top-left-radius: 195px;
+    border-top-right-radius: 195px;
+    border: 14.69px solid rgb(0, 0, 0, 0.302);
+    border-bottom: 0;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.speedbox-score {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 390px;
+    height: 390px;
+    background: transparent;
+    border-radius: 50%;
+    border: 14.69px solid #48b9f2;
+    border-color: transparent transparent #48b9f2 #48b9f2;
+    box-sizing: border-box;
+    cursor: pointer;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.backg-speed {
+    /* background: url(../img/speed.svg) no-repeat; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    bottom: 0;
+}
+
+.backg-speed .speed-txt {
+    font-size: 33.88px;
+    line-height: 41px;
+    margin-top: auto;
+    margin-bottom: 2px;
+}
+
+.backg-speed .speed-label {
+    font-weight: 500;
+    font-size: 12.67px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: rgba(#fff, 0.8);
+}
+.backg-speed.small {
+    width: 330px;
+    padding-bottom: 15px;
+    padding-left: 155px;
+    box-sizing: border-box;
+}
+.gang-war-info {
+    width: 345px;
+    height: 142px;
+    background: linear-gradient(84.08deg, rgba(36, 67, 88, 0.5) 3.16%, rgba(16, 16, 26, 0.5) 95.29%);
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.gang-war-info .war-title {
+    margin-bottom: 11px !important;
+    text-align: center;
+}
+
+.gang-war-info .war-list-item {
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.gang-war-info .war-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.gps-main {
+    /*width: 386px;*/
+    min-width: 115px;
+    height: 64px;
+    margin-left: 323px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+    padding-right: 19px;
+}
+
+.gps-address-wrap {
+    padding-left: 12px;
+}
+
+.gps-icon {
+    width: 26px;
+    height: 26px;
+    background: url(../img/gps.png) no-repeat;
+    background-size: cover;
+    margin-top: 3px !important;
+}
+
+.gps-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 3px;
+}
+
+.gps-txt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.hud__hints {
+    position: absolute;
+    left: 20px;
+    bottom: 38.6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hud__hints__element {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.72rem;
+    align-items: center;
+}
+
+.hud__hints__element__key {
+    width: 29px;
+    height: 29px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.hud__hints__element__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.watch-main {
+    margin-left: 328px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 5px;
+}
+
+.watch-main .degrees {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin-left: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.watch-main .time-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.time-box .time {
+    width: inherit;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.time-box .date {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.time-img-watch {
+    width: 26px;
+    height: 26px;
+    background: url(../img/clock.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 4px !important;
+}
+
+.zone-box {
+    font-family: "Gotham Pro Medium";
+    margin-left: 334px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.time-img-greenzone {
+    width: auto;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(50% 50% at 50% 50%, #097300 0%, rgba(51, 134, 0, 0) 100%);
+    /* background: url(../img/GreenZone.png) no-repeat; */
+    /* background-size: cover; */
+}
+
+.time-img-yellowzone {
+    width: 60px;
+    height: 60px;
+    background: url(../img/YellowZone.png) no-repeat;
+    background-size: cover;
+    margin-left: 8px;
+}
+
+.hud-position-righttop {
+    width: inherit;
+    display: flex;
+    position: absolute;
+}
+
+.logo-main {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    margin-left: auto;
+}
+
+.logo-main .logo-img {
+    background: url('../img/logo.png') no-repeat;
+    background-size: cover;
+    width: 53px;
+    height: 53px;
+    margin-left: 20px;
+}
+.logo-main .logo-img.animated {
+    background: url('../img/logo-animated.gif') no-repeat;
+    background-size: cover;
+
+}
+.logo-main .logo-info {
+    text-align: right;
+    margin-top: 1px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    letter-spacing: 0.01em;
+}
+
+.logo-main .logo-info .span-bold {
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.logo-main .logo-ammo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 93px;
+    right: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    padding: 0 6px;
+    min-width: 53px;
+    height: 45px;
+    background: rgb(255, 255, 255, 0.1);
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.logo-main .logo-quest {
+    position: absolute;
+    max-width: 300px;
+    top: 155px;
+    right: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-align: center;
+    padding: 16px 10px;
+    box-sizing: border-box;
+    backdrop-filter: blur(1px);
+    border-radius: 5px;
+}
+
+.logo-main .logo-quest .quest-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #0A94DD;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.logo-main .logo-quest .quest-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.235;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.logo-main .logo-quest .quest-win {
+    font-family: 'Gotham Pro Regular';
+    font-weight: 300;
+    color: rgb(72, 185, 242);
+}
+
+.logo-main .logo-ammo-img {
+    width: 23px;
+    height: 23px;
+    margin-right: 5.6px;
+    background-position: center;
+}
+
+.logo-main .logo-ammo-img.ammo-safe {
+    background: url("../img/ammo-sf.png") center no-repeat;
+}
+
+.logo-main .logo-ammo-img.ammo-single {
+    width: 5px;
+    margin-right: 10px;
+    background: url("../img/ammo-s.png") center no-repeat;
+}
+
+.logo-main .logo-ammo-img.ammo-burst {
+    width: 17px;
+    margin-right: 10px;
+    background: url("../img/ammo-b.png") center no-repeat;
+}
+
+.logo-main .logo-ammo-img.ammo-auto {
+    background: url("../img/ammo.png") center no-repeat;
+}
+
+.span-bold {
+    /* font-family: 'RobotoBlack'; */
+}
+
+.hide {
+    display: none;
+}
+
+#car-radar {
+    width: 390px;
+    height: 155px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    background-color: #0a0a0a;
+    border: 5px solid #000;
+    border-radius: 10px;
+    font-family: 'D-DIN Bold';
+}
+
+.primary {
+    display: inline-block;
+}
+
+.patrol {
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.label {
+    letter-spacing: 0.05em;
+    display: block;
+    color: #c0c0c0;
+    font-weight: bold;
+    font-size: 10pt;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'D-DIN Bold';
+}
+
+.label.logo {
+    font-size: 14pt;
+}
+
+.label.dim {
+    color: #666;
+}
+
+#car-radar .front .lamps, #car-radar .front .arrows {
+    margin-top: 15px;
+}
+
+#car-radar .rear .lamps, #car-radar .rear .arrows {
+    margin-bottom: 15px;
+}
+
+.lamps {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #600;
+    line-height: 15px;
+    font-weight: bold;
+    font-size: 8pt;
+    text-transform: uppercase;
+    text-align: right;
+    font-family: 'D-DIN Bold';
+}
+
+.lit {
+    color: #e00;
+}
+
+.display {
+    display: inline-block;
+    width: 2.5em;
+    height: 1.2em;
+    font-size: 28pt;
+    line-height: 45px;
+    margin: 2px;
+    font-family: 'DSEG7Classic';
+    border: 3px solid #000;
+}
+
+.display::after {
+    position: absolute;
+    content: '888';
+}
+
+.display span {
+    z-index: 100;
+    position: absolute;
+}
+
+.display.orange span { color: #f79e00; }
+.display.orange { color: #592c00; background-color: #3d1c00; }
+
+.display.red span { color: #ff0000; }
+.display.red { color: #350000; background-color: #230303; }
+
+.display.green span { color: #18f400; }
+.display.green { color: #0e3800; background-color: #072600; }
+
+.display.plate {
+    display: block;
+    width: 6em;
+    height: 1.2em;
+    line-height: 1.1em;
+    font-size: 16pt;
+    border: 2px solid #000;
+    font-family: Consolas;
+    letter-spacing: 0.1em;
+}
+
+.display.plate::after {
+    position: absolute;
+    content: '';
+}
+
+.display.plate span {
+    margin-left: 0.4em;
+}
+
+.arrows {
+    width: 15px;
+}
+
+.arrow {
+    font-size: 14pt;
+    color: #500;
+    display: block;
+}
+
+.arrow.lit {
+    color: #e00;
+}
+
+#control {
+    padding: 10px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: #0a0a0a;
+    text-transform: uppercase;
+    position: absolute;
+    right: 10px;
+    bottom: 185px;
+}
+
+#control .btn-grid button.lit {
+    background-color: #620000;
+    color: #ff0000;
+}
+
+#control .btn-grid td {
+    width: 50px;
+    height: 50px;
+}
+
+#control .btn-grid label {
+    color: #aaa;
+}
+
+#control .btn-grid .btn-red {
+    color: #530000;
+    background-color: #180000;
+}
+
+#control button {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    text-align: center;
+    font-family: 'D-DIN Bold';
+    font-weight: bold;
+    font-size: 9pt;
+    text-transform: uppercase;
+    background-color: #111;
+    color: #aaa;
+    overflow-wrap: normal;
+}
+
+#control button:focus {
+    border: 2px solid #000;
+}
+
+#control .btn-block {
+    display: block;
+    width: 100%;
+}
+
+#control .btn-sm {
+    height: 25px;
+}
+
+#plates {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 420px;
+    background-color: #0a0a0a;
+    border: 5px solid #000;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#plates .label {
+    margin-left: 0.25em;
+    line-height: 1.5em;
+}
+
+#plates .lamps li {
+    width: 3em;
+}

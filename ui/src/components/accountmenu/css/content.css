@@ -1,0 +1,158 @@
+.accountmenu__content {
+    height: 90%;
+    border-radius: 0.4rem;
+    margin-top: 1%;
+}
+
+.accountmenu__content__nav {
+    display: flex;
+    height: 7.5%;
+    align-items: center;
+    outline: none;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.nav__button {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    padding: 16px 31px 16px 31px;
+    justify-content: center;
+}
+
+.nav__button__name {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+
+.accountmenu__content__nav__items {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.accountmenu__content__nav__item_active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 209px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 50px;
+}
+
+.accountmenu__content__nav__item_unactive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 209px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+}
+
+.img__home__div__icon_active {
+    width: 17px;
+    background: url(../icons/nav-icons/home-icon-active.png) no-repeat;
+}
+
+.img__home__div__icon {
+    width: 17px;
+    background: url(../icons/nav-icons/home-icon.png) no-repeat;
+}
+
+.img__property__div__icon_active {
+    width: 17px;
+    background: url(../icons/nav-icons/property-icon-active.png) no-repeat;
+}
+
+.img__property__div__icon {
+    width: 17px;
+    background: url(../icons/nav-icons/property-icon.png) no-repeat;
+}
+
+.img__faq__div__icon_active {
+    width: 14px;
+    background: url(../icons/nav-icons/faq-icon-active.png) no-repeat;
+}
+
+.img__faq__div__icon {
+    width: 14px;
+    background: url(../icons/nav-icons/faq-icon.png) no-repeat;
+}
+
+.img__report__div__icon_active {
+    width: 19px;
+    background: url(../icons/nav-icons/reports-icon-active.png) no-repeat;
+}
+
+.img__report__div__icon {
+    width: 19px;
+    background: url(../icons/nav-icons/reports-icon.png) no-repeat;
+}
+
+.img__settings__div__icon_active {
+    width: 17px;
+    background: url(../icons/nav-icons/settings-icon-active.png) no-repeat;
+}
+
+.img__settings__div__icon {
+    width: 17px;
+    background: url(../icons/nav-icons/settings-icon.png) no-repeat;
+}
+
+.img__quest__div__icon_active {
+    width: 17px;
+    background: url(../icons/nav-icons/quests-icon-active.png) no-repeat;
+}
+
+.img__quest__div__icon {
+    width: 17px;
+    background: url(../icons/nav-icons/quests-icon.png) no-repeat;
+}
+
+.accountmenu__content__nav__item__text_active {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #1E1E1E;
+    box-sizing: border-box;
+}
+
+.accountmenu__content__nav__item__text_unactive {
+    font-family: 'Montserrat';
+    font-style: normal;
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+}
+
+.content__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}

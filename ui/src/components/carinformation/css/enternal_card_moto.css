@@ -1,0 +1,159 @@
+
+
+.car_scheme_container_moto img {
+    pointer-events: all;
+}
+
+.enternal_card_conteiner_moto {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.car_scheme_container_moto {
+    width: 259px;
+    height: 598px;
+    background: url(../icons/enternal_card/scheme_moto.png) no-repeat;
+    margin-left: 82px;
+}
+
+.electronic_moto {
+    position: absolute;
+    margin-left: 93px;
+    margin-top: 380px;
+    z-index: 1;
+}
+
+.brake_moto {
+    position: absolute;
+    z-index: 2;
+    margin-top: 320px;
+    margin-left: 51px;
+}
+
+.fuel_generator_moto {
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 157px;
+    z-index: 1;
+    clip-path: polygon(69% 6%, 72% 11%, 74% 17%, 78% 24%, 81% 30%, 85% 37%, 87% 42%, 89% 48%, 94% 58%, 97% 68%, 99% 74%, 100% 79%, 100% 89%, 100% 97%, 99% 100%, 95% 100%, 86% 100%, 78% 100%, 67% 100%, 53% 100%, 25% 100%, 13% 100%, 3% 100%, 0% 96%, 0% 89%, 0% 80%, 0% 72%, 3% 66%, 7% 57%, 11% 47%, 15% 38%, 18% 30%, 21% 23%, 24% 15%, 28% 9%, 31% 4%, 37% 2%, 41% 0%, 47% 0%, 50% 0%, 55% 0%, 60% 0%, 62% 2%);
+}
+
+.transmition_moto {
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 320px;
+    z-index: 2;
+}
+
+.engine_moto {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 258px;
+    z-index: 1;
+}
+
+.top_wheel_moto {
+    position: absolute;
+    margin-left: 110px;
+    z-index: 0;
+}
+
+.bottom_wheel_moto {
+    position: absolute;
+    margin-left: 111px;
+    margin-top: 411px;
+    z-index: 0;
+}
+
+.car_info_blocks_conteiner {
+    height: 696px;
+    width: 856px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.car_info_blocks_conteiner_first_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.car_info_blocks_conteiner_second_column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.enternal_items_info_container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    width: 413px;
+    height: 220px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+.greate {
+    background: rgba(111, 207, 151, 0.15);
+}
+
+.normal {
+    background: rgba(242, 201, 76, 0.15);
+}
+
+.bad {
+    background: rgba(235, 87, 87, 0.15);
+}
+
+.destroyed {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url(../icons/enternal_card/containers_icons_enternal_items/bg_destroyed.svg);
+    background-size: cover;
+}
+
+.enternal_items_info_container_header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: center;
+}
+
+.enternal_items_info_state_of_item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.enternal_items_info_container_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+}
+
+.enternal_items_info_container_text_wheels {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}

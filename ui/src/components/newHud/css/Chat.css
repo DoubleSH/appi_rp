@@ -1,0 +1,24 @@
+li{
+    display: inline-block;
+  }
+ul{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.chat-wrapper{
+    width: 526px;
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-size: 14px;
+    line-height: 17px;
+}
+.chat__element{
+    margin-bottom: 5px;
+}

@@ -1,0 +1,200 @@
+
+
+.car_scheme_container img {
+    pointer-events: all;
+}
+
+.enternal_card_conteiner {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.car_scheme_container {
+    width: 311px;
+    height: 696px;
+    background: url(../icons/enternal_card/scheme2axle.png) no-repeat;
+    margin-left: 82px;
+}
+
+.left_1_wheel {
+    position: absolute;
+    margin-top: 69px;
+    margin-left: 20px;
+    z-index: 0;
+    
+}
+
+.left_1_brake {
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 60px;
+    clip-path: polygon(4% 100%, 4% 96%, 0% 96%, 0% 54%, 4% 54%, 4% 40%, 23% 39%, 36% 30%, 40% 17%, 49% 8%, 56% 2%, 61% 0%, 65% 0%, 68% 4%, 75% 10%, 79% 14%, 68% 25%, 63% 29%, 64% 37%, 63% 43%, 63% 53%, 56% 53%, 57% 62%, 91% 62%, 100% 62%, 100% 80%, 57% 81%, 57% 85%, 37% 86%, 36% 100%);
+    z-index: 0;
+}
+
+.left_2_wheel {
+    position: absolute;
+    margin-top: 477px;
+    margin-left: 16px;
+    z-index: 0;
+}
+
+.left_2_brake {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 56px;
+    clip-path: polygon(36% 74%, 36% 100%, 4% 100%, 4% 92%, 0% 92%, 0% 22%, 4% 21%, 5% 0%, 24% 0%, 34% 2%, 41% 5%, 46% 7%, 51% 9%, 56% 11%, 57% 26%, 57% 35%, 64% 36%, 70% 36%, 77% 36%, 85% 36%, 91% 36%, 97% 36%, 100% 37%, 100% 44%, 100% 52%, 100% 58%, 100% 65%, 100% 68%, 90% 67%, 78% 67%, 68% 67%, 57% 67%, 57% 74%);
+    z-index: 0;
+}
+
+.right_1_wheel {
+    position: absolute;
+    margin-top: 69px;
+    margin-left: 250px;
+    z-index: 0;
+}
+
+.right_1_brake {
+    position: absolute;
+    margin-left: 176px;
+    margin-top: 58px;
+    clip-path: polygon(63% 86%, 42% 86%, 43% 81%, 35% 81%, 26% 81%, 13% 81%, 0% 81%, 0% 74%, 0% 68%, 0% 62%, 8% 61%, 18% 62%, 25% 62%, 34% 62%, 42% 62%, 43% 53%, 37% 52%, 36% 48%, 36% 43%, 36% 37%, 36% 31%, 34% 27%, 29% 24%, 25% 20%, 22% 16%, 20% 13%, 24% 10%, 27% 7%, 30% 4%, 34% 2%, 37% 0%, 41% 0%, 45% 3%, 49% 6%, 53% 9%, 57% 12%, 60% 16%, 62% 22%, 64% 29%, 69% 32%, 73% 35%, 77% 38%, 83% 39%, 90% 39%, 96% 39%, 97% 44%, 98% 49%, 97% 53%, 100% 55%, 100% 59%, 100% 65%, 100% 72%, 100% 78%, 100% 84%, 100% 89%, 100% 95%, 97% 97%, 96% 100%, 90% 100%, 84% 100%, 77% 100%, 70% 100%, 63% 100%);
+    z-index: 0;
+}
+
+.right_2_wheel {
+    position: absolute;
+    margin-left: 253px;
+    margin-top: 477px;
+    z-index: 0;    
+}
+
+.right_2_brake {
+    position: absolute;
+    margin-left: 179px;
+    margin-top: 500px;
+    clip-path: polygon(62% 77%, 47% 76%, 43% 76%, 43% 69%, 43% 66%, 39% 67%, 32% 68%, 27% 68%, 21% 68%, 16% 67%, 9% 67%, 4% 68%, 1% 67%, 0% 65%, 0% 59%, 0% 51%, 0% 42%, 0% 35%, 6% 35%, 14% 34%, 20% 35%, 28% 36%, 34% 35%, 39% 35%, 42% 35%, 43% 29%, 43% 23%, 43% 16%, 43% 11%, 46% 9%, 50% 7%, 54% 5%, 60% 4%, 64% 2%, 68% 0%, 72% 0%, 76% 0%, 80% 0%, 86% 0%, 90% 0%, 93% 0%, 96% 0%, 97% 5%, 97% 11%, 97% 16%, 97% 20%, 99% 22%, 100% 25%, 100% 29%, 100% 34%, 100% 41%, 100% 48%, 100% 54%, 100% 64%, 100% 71%, 100% 76%, 100% 81%, 100% 87%, 100% 93%, 96% 93%, 96% 97%, 95% 100%, 92% 100%, 89% 100%, 86% 100%, 82% 100%, 78% 100%, 71% 100%, 66% 100%, 62% 100%);
+    z-index: 0;
+}
+
+.electronic {
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 33px;
+    clip-path: polygon(57% 91%, 50% 95%, 45% 98%, 40% 100%, 33% 100%, 33% 97%, 29% 94%, 26% 92%, 22% 88%, 19% 84%, 14% 80%, 11% 76%, 7% 71%, 2% 67%, 0% 61%, 0% 57%, 2% 55%, 4% 52%, 8% 49%, 12% 45%, 21% 35%, 29% 27%, 40% 16%, 46% 11%, 51% 5%, 55% 2%, 59% 0%, 62% 0%, 66% 2%, 70% 6%, 75% 10%, 80% 15%, 85% 19%, 91% 24%, 94% 29%, 99% 33%, 100% 39%, 100% 44%, 96% 48%, 90% 54%, 84% 61%, 78% 66%, 70% 76%, 61% 84%);
+    z-index: 0;
+}
+
+.fuel_generator {
+    position: absolute;
+    margin-left: 187px;
+    margin-top: 142px;
+    clip-path: polygon(65% 96%, 66% 99%, 64% 100%, 53% 100%, 38% 100%, 20% 100%, 0% 100%, 0% 95%, 0% 90%, 0% 86%, 0% 75%, 0% 61%, 0% 53%, 0% 32%, 0% 1%, 1% 0%, 14% 0%, 23% 0%, 22% 3%, 22% 7%, 24% 10%, 21% 13%, 23% 18%, 22% 24%, 23% 31%, 25% 40%, 24% 49%, 24% 56%, 22% 63%, 25% 70%, 24% 75%, 25% 80%, 23% 84%, 40% 84%, 58% 84%, 77% 84%, 96% 84%, 100% 84%, 100% 86%, 100% 90%, 97% 93%, 96% 96%, 82% 97%);
+    z-index: 1;
+}
+
+.transmition {
+    position: absolute;
+    margin-left: 131px;
+    margin-top: 195px;
+}
+
+.engine {
+    position: absolute;
+    margin-left: 98px;
+    margin-top: 41px;
+    z-index: 1;
+}
+
+.car_info_blocks_conteiner {
+    height: 696px;
+    width: 856px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.car_info_blocks_conteiner_first_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.car_info_blocks_conteiner_second_column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.enternal_items_info_container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    width: 413px;
+    height: 220px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+.greate {
+    background: rgba(111, 207, 151, 0.15);
+}
+
+.normal {
+    background: rgba(242, 201, 76, 0.15);
+}
+
+.bad {
+    background: rgba(235, 87, 87, 0.15);
+}
+
+.destroyed {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url(../icons/enternal_card/containers_icons_enternal_items/bg_destroyed.svg);
+    background-size: cover;
+}
+
+.enternal_items_info_container_header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: center;
+}
+
+.enternal_items_info_state_of_item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.enternal_items_info_container_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+}
+
+.enternal_items_info_container_text_wheels {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,32 @@
+.gps-wrapper{
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  width: 303px;
+  height: 220px;
+}
+.gps-map{
+  height: 203px;
+  width: 100%;
+  background: radial-gradient(circle, rgba(24, 24, 24, 0.2), rgba(24, 24, 24, 0.7));
+  border-radius: 4.65957px 4.65957px 0px 0px;
+}
+.gps-indicator-box{
+  height: 16px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.gps-indicator-health{
+    display: inline-block;
+    margin: 0 1.5px 4.8px 0;
+    background: #4F8845;
+    width: 150px;
+    height: 8.39px;
+}
+.gps-indicator-stamina{
+    display: inline-block;
+    margin: 0 0 4.8px 1.5px;
+    background: #20485E;
+    width: 150px;
+    height: 8.39px;
+}

@@ -1,0 +1,273 @@
+.accountmenu__content__cards__blitem {
+    display: flex;
+    height: 90%;
+    width: 66%;
+    background: rgba(0, 0, 0, 0.35);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.accountmenu__content__cards__settings__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.accountmenu__cards__question__container {
+    padding-right: 17px;
+}
+
+.accountmenu__content__cards__settings__header__type {
+    font-family: 'Gotham Pro Medium';
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 2%;
+}
+
+.accountmenu__content__cards__settings__header__name {
+    font-family: 'Gotham Pro Regular';
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.accountmenu__content__cards__settings__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.accountmenu__content__cards__settings__list__item {
+    width: 100%;
+    height: 60px;
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.accountmenu__content__cards__settings__list__item_selected {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: rgba(217, 217, 217, 0.85);
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E1E1E;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.accountmenu__content__cards__settings__bcontainer__name {
+    font-family: 'Gotham Pro Medium';
+    font-size: 1.6rem;
+}
+
+.accountmenu__content__cards__settings__bcontainer__desc {
+    font-family: 'Gotham Pro Regular';
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.accountmenu__content__cards__setting__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.accountmenu__content__cards__setting__item:first-child {
+    margin-top: 0px;
+}
+
+.accountmenu__content__cards__setting__checkbox__btn:first-child {
+    margin-right: 1rem;
+}
+
+.accountmenu__content__cards__setting__checkbox__btn_off:first-child {
+    margin-right: 1rem;
+}
+
+.accountmenu__content__cards__setting__checkbox__btn_on:first-child {
+    margin-right: 1rem;
+}
+
+.accountmenu__content__cards__setting__checkbox__btn {
+    width: 110px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.accountmenu__content__cards__setting__checkbox__btn:hover {
+    background: rgba(36, 129, 182, 0.35);
+    border: 2px solid #51B9F0;
+}
+
+.accountmenu__content__cards__setting__checkbox {
+    display: flex;
+}
+
+.accountmenu__content__cards__setting__checkbox__btn_on {
+    width: 110px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    background:  #429665;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.accountmenu__content__cards__setting__checkbox__btn_off {
+    width: 110px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    background:  #D64D4D;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.accountmenu__content__cards__setting__listmenu_arrow_left{
+    width: 17px;
+    height: 16px;
+    background: url(../icons/settings/arrow-left-icon.png);
+    cursor: pointer;
+}
+
+.accountmenu__content__cards__setting__listmenu_arrow_right {
+    width: 17px;
+    height: 16px;
+    background: url(../icons/settings/arrow-right-icon.png);
+    cursor: pointer;
+}
+
+.accountmenu__content__cards__setting__name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.85);
+}
+.accountmenu__content__cards__setting__desc {
+    font-family: 'Roboto';
+    font-size: 1.0rem;
+    letter-spacing: 0.12rem;
+}
+
+.accountmenu__content__cards__setting__listmenu__name {
+    padding-left: 46px;
+    padding-right: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.accountmenu__content__cards__setting__listmenu {
+    display: flex;
+}
+
+.accountmenu__content__cards__blitem__settings__buttons__container {
+    display: flex;
+    height: 97%;
+    width: 66%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.accountmenu__content__cards__button__setting__big_button {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    cursor: pointer;
+    height: 36px;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.accountmenu__content__cards__button__setting__big_button:hover {
+    background: rgba(36, 129, 182, 0.35);
+    border: 2px solid #51B9F0;
+}
+
+.accountmenu__content__cards__button__setting__big_bitton_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.95);    
+}

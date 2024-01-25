@@ -1,0 +1,1364 @@
+body {
+    /*background: rgba(0, 0, 0, 0.5);*/
+}
+
+.bgForDrop{
+     background: rgba(0, 0, 0, 0.5);
+}
+
+.object-inv-box::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 50px; 
+ }
+  
+  .object-inv-box::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  .object-inv-box::-webkit-scrollbar-track {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.05);  
+}
+.inventory__trunk__list::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 50px; 
+ }
+
+ .inventory__trunk__list::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  .inventory__trunk__list::-webkit-scrollbar-track {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.05);  
+}
+
+
+.bgForDrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.inv-box {
+    /* width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: row-reverse;
+    z-index: -1; */
+    flex-direction: row-reverse;
+    margin-left: auto;
+    margin-top: auto;
+    position: relative;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.inventory-main {
+    width: 1239px;
+    height: 694px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inv-row-main {
+    display: flex;
+}
+
+.player-inv {
+    width: 395px;
+    height: 694px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.player-info {
+    width: 372px;
+    height: 694px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.player-craft {
+    width: 372px;
+    height: 694px;
+    border-radius: 20px;
+}
+
+.title-inv {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 8%;
+    position: relative;
+    padding: 0rem 0rem 1.5rem 0rem;
+}
+
+#title_inventory {
+    padding-left: 81px;
+}
+
+.title-inv-craft {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 8%;
+    position: relative;
+    padding: 0rem 0rem 3.4rem 0rem;
+    margin-top: -29px;
+
+}
+
+.title-inv-equip {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 8%;
+    position: relative;
+    padding: 0rem 1rem 2.2rem 1rem;
+    margin-top: -12px;
+}
+
+
+.title-secondary-inv {
+    display: flex;
+    margin-top: -40px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    height: 4%;
+    position: relative;
+    padding: 0rem 0rem 6.3rem 0rem;
+}
+
+.liner-secondary-inv {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    background: url(../img/liner-inv.png) no-repeat;
+    width: 201px;
+    height: 9px;
+    margin-right: auto;
+    margin-top: -32px;
+    margin-bottom: -2px;
+}
+
+.liner-inv {
+    background: url(../img/liner-inv.png) no-repeat;
+    width: 201px;
+    height: 9px;
+    margin-left: auto;
+    margin-top: -8px;
+    margin-bottom: -2px;
+}
+
+.liner-inv-info {
+    background: url(../img/liner-inv.png) no-repeat;
+    width: 201px;
+    height: 9px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: -1px;
+}
+
+.object-inv-box {
+    overflow: auto;
+    height: 83%;
+}
+
+.object-box {
+    display: flex;
+    width: 352px;
+    height: 60px;
+    transition: 300ms;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    background: rgba(30, 30, 30, 0.5);
+    border-radius: 5px;
+    margin-bottom: 0.8rem;
+}
+
+.linearbar-inv{
+    position: absolute;
+    /* width: 26%; */
+    height: 100%;
+    background: #00000042;
+    transition: 1s linear;
+    z-index: -1;
+}
+.object-box:hover {
+    scale: 0.97;
+}
+
+.obj-inf-box {
+    margin-left: 16px;
+    height: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.obj-inf-box-second {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.obj-inf-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 0.2rem;
+}
+
+.obj-inf-weight {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.obj-inf-desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*.player-title-info {
+    height: 60px;
+    font-family: "Gotham Pro Regular";
+    font-size: 1rem;
+    color: rgba(255,255,255,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}Имя игрока*/
+
+.outf-cap {
+    background: url(../img/outfit/cap.png) no-repeat;
+    width: 62px;
+    height: 51px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 74px;
+}
+
+.outf-glasses {
+    background: url(../img/outfit/glasses.png) no-repeat;
+    width: 72px;
+    height: 22px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 215px;
+}
+
+.outf-mask {
+    background: url(../img/outfit/hockey-mask.png) no-repeat;
+    width: 52px;
+    height: 64px;
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 40px;
+}
+
+.outf-shirt {
+    background: url(../img/outfit/shirt.png) no-repeat;
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 134px;
+}
+
+.outf-jewerly {
+    background: url(../img/outfit/pearl-necklace.png) no-repeat;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 259px;
+}
+
+.outf-earrings {
+    background: url(../img/outfit/earrings.png) no-repeat;
+    width: 48px;
+    height: 62px;
+    position: absolute;
+    margin-top: 221px;
+    margin-left: 42px;
+}
+
+.outf-jeans {
+    background: url(../img/outfit/jeans.png) no-repeat;
+    width: 66px;
+    height: 142px;
+    position: absolute;
+    margin-top: 232px;
+    margin-left: 152px;
+}
+
+.outf-watch {
+    background: url(../img/outfit/wristwatch.png) no-repeat;
+    width: 36px;
+    height: 72px;
+    position: absolute;
+    margin-top: 221px;
+    margin-left: 272px;
+}
+
+.outf-bracelet {
+    background: url(../img/outfit/bracelet.png) no-repeat;
+    width: 34px;
+    height: 56px;
+    position: absolute;
+    margin-top: 321px;
+    margin-left: 52px;
+}
+
+.outf-bag {
+    background: url(../img/outfit/handbag.png) no-repeat;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    margin-top: 321px;
+    margin-left: 259px;
+    background-size: contain;
+}
+
+.outf-boot {
+    background: url(../img/outfit/boot.png) no-repeat;
+    width: 75px;
+    height: 53px;
+    position: absolute;
+    margin-top: 391px;
+    margin-left: 146px;
+}
+
+.outf-clock {
+    background: url(../img/outfit/circular-clock-tool.png) no-repeat;
+    width: 51px;
+    height: 51px;
+    margin-left: 18px;
+}
+
+.outf-armour {
+    background: url(../img/outfit/armour.png)  no-repeat;
+    width: 51px;
+    height: 51px;
+    margin-left: 18px;
+    background-size: contain;
+}
+
+.outf-phone {
+    background: url(../img/outfit/smartphone.png) no-repeat;
+    width: 31px;
+    height: 55px;
+    margin-left: 47px;
+}
+
+.outf-money {
+    background: url(../img/outfit/notes.png) no-repeat;
+    width: 55px;
+    height: 41px;
+    margin-left: 48px;
+}
+
+.outf-card {
+    background: url(../img/outfit/credit-card.png) no-repeat;
+    width: 55px;
+    height: 41px;
+    margin-left: 41px;
+}
+
+.outfit-player-box {
+    display: flex;
+    height: 580px;
+    background: url(../img/person.png) no-repeat;
+    background-position: center;
+    flex-direction: column;
+}
+
+.item__background {
+    background: rgba(0, 0, 0, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    height: 56px;
+    width: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__background img {
+    width: 50px;
+    height: 50px;
+}
+
+.outfit-pos-outfit-hat {
+    position: absolute;
+    margin-left: 155px;
+}
+
+.outfit-pos-outfit-glasses {
+    position: absolute;
+    margin-left: 310px;
+}
+
+.outfit-pos-outfit-earrings {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 84px;
+}
+
+.outfit-pos-outfit-pants {
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 312px;
+}
+
+.outfit-pos-outfit-case {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 312px;
+}
+
+.outfit-pos-outfit-gloves {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 312px;
+}
+
+
+.outfit-pos-outfit-watch {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 230px;
+}
+
+.outfit-pos-outfit-bracelet {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 230px;
+}
+
+.outfit-pos-outfit-shoes {
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 444px;
+}
+
+.outfit-pos-outfit-jewerly {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 84px;
+}
+
+.outfit-pos-outfit-mask {
+    position: absolute;
+    margin-left: 0px;
+}
+
+.outfit-pos-outfit-tshirt {
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 160px;
+}
+
+.bottom-otf-box {
+    margin-top: 512px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.use-outfit {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(230deg) brightness(107%) contrast(100%);
+}
+
+.use-outfit:hover {
+    filter: brightness(0) saturate(100%) invert(59%) sepia(82%) saturate(454%) hue-rotate(169deg) brightness(97%) contrast(96%);
+}
+
+.main-for-squar-box {
+    margin-top: 8px;
+    display: flex;
+}
+
+.squar-inv-box {
+    width: 68px;
+    height: 68px;
+    background: rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.squar-inv-box:not(:last-child) {
+    margin-right: 8px;
+}
+
+.menu-craft-change {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-craft {
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-craft-weapon {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-craft__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+}
+
+input[type="radio"]:checked + label.btn-craft {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    border-top: 2px solid rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 1);
+}
+
+input[type="radio"]:checked + label.btn-craft-weapon {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    border-top: 2px solid rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 1);
+
+}
+
+input[type="radio"]:checked + label .bg-color-craft-block {
+    filter: brightness(0) saturate(100%);
+}
+
+.img-btn-weapon {
+    background: url(../img/gun.png) no-repeat;
+    width: 60px;
+    height: 42px;
+}
+
+.img-btn-cutter {
+    background: url(../img/cutter.png) no-repeat;
+    width: 44px;
+    height: 44px;
+}
+
+.weapon-player-equip {
+    height: 54.5%;
+    width: inherit;
+    margin-top: 45px;
+    font-size: 20px;
+    color: #fff;
+    overflow: scroll;
+}
+
+.style-serial-weapon {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#style-serial-weapon-id {
+    background: url(../img/weapon/weaponId.png) no-repeat;
+    width: 50%;
+    padding-left: 54px;
+    background-size: 6%;
+    background-position: 17%!important;
+}
+
+#style-serial-weapon-countI {
+    width: 25%;
+    background: url(../img/weapon/weaponArmour.png) no-repeat;
+    background-size: 13%;
+    text-align: center;
+    background-position: 15%!important;
+}
+
+#style-serial-weapon-volume {
+    width: 25%;
+    background: url(../img/weapon/weaponVolume.png) no-repeat;
+    background-size: 14%;
+    text-align: center;
+    background-position: 8%!important;
+}
+
+.style-desc-weapon {
+    display: flex;
+    justify-content: center;
+}
+
+.craft-player-sp .style-weapon-txt-craft {
+    margin-bottom: 33px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 9px;
+    width: inherit;
+    margin-left: auto;
+    border: 0.5px solid rgba(255, 255, 255, 0.15);
+    border-radius: 7px;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+}
+
+.style-weapon-helper {
+    width: 50%;
+}
+
+
+
+.style-weapon-txt-craft__wname {
+    font-family: 'Montserrat';
+    font-style: normal;
+    width: 162px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.style-weapon-txt-craft__wname_block {
+    height: 67%;
+    display: flex;
+    align-items: center;
+}
+
+.style-weapon-txt-craft {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    background-color: rgba(30, 30, 30, 0.5);
+    border-radius: 5px;
+    background-position: 2% !important;
+    background-size: 45% !important;
+}
+
+.style-weapon-txt-craft__name {
+    font-family: 'Gotham Pro Medium';
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+}
+
+.style-weapon-txt-craft-selected {
+}
+
+.weapon-player-equip__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(30, 30, 30, 0.5);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.weapon-player-equip__container_selected {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(62, 62, 62, 0.5);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.weapon-player-equip__select {
+    display: block;
+    width: 11px;
+    height: 11px;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.weapon-player-equip__select_selected {
+    display: block;
+    width: 11px;
+    height: 11px;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+.liner-weapon-crafting {
+    width: 20.5%;
+    height: 8px;
+    background: #48b9f2;
+}
+
+.box-img-equip-weapon {
+    padding-top: 10px;
+    padding-right: 120px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-img-equip-weapon__name {
+    font-family: 'Gotham Pro Medium';
+    font-size: 13px;
+}
+
+.box-img-equip-weapon__hint {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.weapon-m41 {
+    background: url("../img/weapon/m41.png") no-repeat;
+    width: 252px;
+    height: 79px;
+}
+
+.selected-weapon {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 100%;
+    height: 100%;
+    background-size: 190px !important;
+    background-position: center !important;
+    /* filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(590%) hue-rotate(205deg) brightness(118%) contrast(100%); */
+}
+
+.line_space_weapon_craft {
+    width: 82%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+}
+
+.weapon-craft-box {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-box-craft-weapon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    flex-direction: row;
+}
+
+.main-box-craft-subject {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    flex-direction: row;
+}
+
+.square-box-craft-weapon {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    margin-right: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-craft-object {
+    width: 56px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weapon-mod-active {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 62px;
+    height: 62px;
+    background-size: 54px !important;
+    background-position: center !important;
+    /*filter: brightness(400%) contrast(20%);*/
+    transition: 1s;
+}
+
+.weapon-mod {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 62px;
+    height: 62px;
+    background-size: 54px !important;
+    background-position: center !important;
+    filter: brightness(400%) contrast(20%);
+    opacity: 0.3;
+}
+
+.weapon-mod-active:hover {
+    /*filter: brightness(0) saturate(100%) invert(59%) sepia(82%) saturate(454%) hue-rotate(169deg) brightness(97%) contrast(96%);*/
+    transform: scale(1.1);
+}
+
+.weapon-supressor {
+    background: url("../img/weapon/supressor.png") no-repeat;
+}
+
+.weapon-flashlight {
+    background: url("../img/weapon/flashlight.png") no-repeat;
+}
+
+.weapon-grip {
+    background: url("../img/weapon/grip.png") no-repeat;
+}
+
+.weapon-scope {
+    background: url("../img/weapon/scope.png") no-repeat;
+}
+
+.square-box-craft-weapon:first-child {
+    margin-left: 22px;
+}
+
+.sqr-wp-left {
+    margin-left: 21px;
+}
+
+.sqr-wp-top {
+    margin-bottom: 27px;
+}
+
+.box-cr-left {
+    margin-left: 21px;
+}
+
+.box-cr-right {
+    margin-right: 44px;
+}
+
+.box-cr-top {
+    margin-bottom: 27px;
+}
+
+.cheked-crafting {
+    width: 350px;
+    height: 137px;
+    background-color: rgb(255, 255, 255, 0.102);
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fail {
+    background: url("../img/fail.png") no-repeat;
+    width: 71px;
+    height: 72px;
+}
+
+.img-succes {
+    background: url("../img/succes.png") no-repeat;
+    width: 71px;
+    height: 71px;
+}
+
+.crafting-object-main {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.persantage-craft-time {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.liner-crafting-obj {
+    width: 0%;
+    margin-right: auto;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 50px;
+    transition: 2s;
+    z-index: 5;
+}
+
+.liner-crafting-obj-bg {
+    height: 4px;
+    width: 100%;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.sqr-wp-bottom {
+    margin-bottom: 21px;
+}
+
+.box-cr-bottom {
+    margin-bottom: 21px;
+}
+
+.craft-btn-obj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+#craft-btn-obj-close {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 50px;
+}
+
+#craft-btn-obj-craft {
+    background-color:  #2481B6;
+    padding: 20px 60px;
+}
+
+.craft-btn-obj:hover {
+    background-color: rgba(255, 255, 255, 0.102);
+}
+
+.craft-btn-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.craft-btn-obj:first-child {
+    margin-right: 21px;
+}
+
+.craft-help-menu {
+    width: 50px;
+    height: 47px;
+    background: rgb(73, 184, 241);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "HACKED";
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.close-window-craft {
+    min-height: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    transition: 0.1s ease-out;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(126, 126, 126, 0.28);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
+}
+
+.close-window-craft:hover {
+    background: rgba(0, 0, 0, 0.28);
+}
+
+.trunk-boxes-main {
+    width: 82px;
+}
+
+.trunk-box {
+    width: 62px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 9px;
+    padding: 0 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+.trunk-box:hover {
+    background: #48b9f2;
+}
+
+.invetory-trunk {
+    height: 694px;
+    margin-right: 50px;
+}
+
+.content-inventory {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.invetory-trunk {
+    width: 395px;
+    border-radius: 20px;
+}
+
+.trunk-info-menu {
+    height: 694px;
+    /* display: flex;
+    flex-direction: column; */
+    overflow: visible;
+}
+
+.inventory__trunk__list {
+    padding-right: 18px;
+    overflow: scroll;
+    height: 83%;
+}
+
+.object-box-trunk {
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    background: rgba(30, 30, 30, 0.5);
+    border-radius: 5px;
+    margin-bottom: 0.8rem;
+}
+
+.object-box-trunk:hover {
+    scale: 0.97;
+}
+
+.color-blue-btn {
+    position: sticky;
+    top: 0px;
+    margin-top: -30px;
+    filter: brightness(0) saturate(100%) invert(59%) sepia(82%) saturate(454%) hue-rotate(169deg) brightness(97%) contrast(96%);
+}
+
+.color-blue-btn:hover {
+    filter: brightness(0) invert(100%);
+}
+
+.close_editor_weapon {
+    display: none;
+    width: 11px;
+    height: 11px;
+    background: url(../img/close-weapon-editor.png)no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.close_editor_weapon_selected {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background: url(../img/close-weapon-editor.png)no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.squar-inv-box:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    width: 68px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.102);
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.obj-inf-count {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.obj-inf-volume {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.bar-inv{
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.bar-inv-inf {
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.wrapper_bar {
+    width: 64%;
+}
+
+.wrapper_bar_close {
+    width: 92%;
+}
+
+.inf-open {
+    width: 15px;
+    height: 20px;
+    background: url(../img/inf.png) no-repeat;
+    background-position: 100%;
+    display: flex;
+    padding-left: 17px;
+}
+
+.inf-close {
+    display: none;
+}
+
+.weight-title-inv-trunk {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    width: 30%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.weight-title-inv-trunk-close {
+    display: none;
+}
+
+.weight-title-inv-id {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding-left: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    width: 17%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.weight-title-inv-id-close {
+    display: none;
+}
+
+.title-inv__name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.secondary-title-inv__name{ 
+    width: 58%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.moveall_left {
+    background: url(../img/moveall.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    transform: rotate(-180deg);
+    position: absolute;
+    left: 10px;
+}
+.moveall_right{
+    background: url(../img/moveall.svg) no-repeat;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    position: absolute;
+    right: 5px;
+    display: none;
+}
+.moveall_right:hover, .moveall_left:hover {
+    filter: brightness(0) saturate(100%) invert(59%) sepia(82%) saturate(454%) hue-rotate(169deg) brightness(97%) contrast(96%);
+}
+.craft-player-sp {
+    padding: 1.8rem 20px 1rem 20px;
+    font-family: "Gotham Pro Regular";
+    font-size: 20px;
+    color: #fff;
+    overflow: auto;
+    height: 480px;
+}
+.craft-one-sp {
+    height: 271px;
+    width: inherit;
+    font-family: "RobotoBold";
+    font-size: 20px;
+    color: #fff;
+    overflow: auto;
+
+}
+.style-for-craft-btn {
+    margin-top: 0px;
+}
+.style-recipes-txt-craft {
+    padding-left: 17px;
+    height: 120px;
+    width: 372px;
+    margin-top: 30px;
+    display: flex;
+    overflow-x: auto;
+    flex-direction: column;
+    background-color: rgba(39, 39, 39, 0.5);
+    border-radius: 5px;
+}
+
+.style-recipes-txt-craft__name {
+    font-family: 'Gotham Pro Medium';
+    font-size: 1rem;
+    margin-top: 13px;
+}
+
+.text-dd-ss-kk {
+    font-family: "RobotoBold";
+    font-size: 20px;
+    color: #fff;
+    margin-top: 27px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.style-serial-recipes {
+    font-family: "Gotham Pro Regular";
+    color: #fff;
+    font-size: 12px;
+    margin-top: 6px;    
+    white-space: pre-line;
+}
+.style-serial-rec-o{
+    font-family: "Gotham Pro Regular";
+    color:#fff;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.select-craft {
+    /*filter: brightness(0) saturate(100%) invert(59%) sepia(82%) saturate(454%) hue-rotate(169deg) brightness(97%) contrast(96%) !important;*/
+    opacity: 1;
+}
+
+.null {
+    filter: grayscale(100%);
+    opacity: 0.8;
+}

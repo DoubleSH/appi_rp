@@ -1,0 +1,22 @@
+@font-face {
+    font-family: SFUIDisplay-Regular;
+    src: url("./assets/fonts/SFUIDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: SFUIDisplay-Medium;
+    src: url("./assets/fonts/SFUIDisplay-Medium.ttf");
+}
+@font-face {
+    font-family: SFUIDisplay-SemiBold;
+    src: url("./assets/fonts/SFUIDisplay-SemiBold.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none;
+}

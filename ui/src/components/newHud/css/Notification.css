@@ -1,0 +1,179 @@
+.notification-wrapper{
+    width: 303px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 230px;
+    overflow: hidden;
+}
+.messege-notification{
+    width: 303px;
+    display: block;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.flex-box-notification-messege{
+    width: 235px;
+    height: 90%;
+    text-align: left;
+    margin-left: 52px;
+    
+    position: absolute;
+    top: 16px;
+    
+}
+.__bad{
+    height: 52px;
+    background: rgba(180, 50, 50, 0.6);
+    color: rgba(255, 255, 255, 0.85);
+    
+}
+.__bad  > .text-notification-messege{
+    margin-top: 16px;
+}
+.__bad-light  > .text-notification-messege{
+    margin-top: 16px;
+}
+.__good  > .text-notification-messege{
+    margin-top: 16px;
+}
+.__good-light  > .text-notification-messege{
+    margin-top: 16px;
+}
+.__bad-light{
+    height: 52px;
+    background: #DF2F2F;
+    box-shadow: 0px 2px 2px rgba(87, 23, 23, 0.25);
+    color: #FFFFFF;
+}
+.__good{
+    height: 52px;
+    background: rgba(29, 124, 73, 0.6);
+    color: rgba(255, 255, 255, 0.85);
+    
+}
+.__good-light{
+    height: 52px;
+    background: #219653;
+    box-shadow: 0px 2px 2px rgba(23, 87, 37, 0.25);
+    color: #FFFFFF;
+}
+.__helper{
+    height: 92px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: rgba(255, 255, 255, 0.75);
+    background: rgba(23, 71, 99, 0.6);
+}
+.__helper > .title-notification-messege{
+    color: #51B9F0;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+}
+.__helper > div > .text-notification-messege{
+    color: #51B9F0;
+}
+.__helper > div > .title-notification-messege{
+    color: #51B9F0;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+}
+.__helper > div > .text-notification-messege{
+    color: rgba(255, 255, 255, 0.75);
+}
+.__helper-light{
+    height: 92px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    background: rgba(36, 129, 182, 0.6);
+    box-shadow: 0px 2px 2px rgba(23, 64, 87, 0.25);
+    color: #FFFFFF;
+}
+.__attention{
+    height: 110px;
+    background: rgba(137, 113, 41, 0.6);
+    color: #F2C94C;
+}
+.__attention-light{
+    height: 110px;
+    background: rgba(255, 192, 0, 0.95);
+    box-shadow: 0px 2px 2px rgba(125, 105, 43, 0.25);
+    color: #1E1E1E;
+}
+.__attention-light > div > .text-notification-messege{
+    color: rgba(30, 30, 30, 0.5);
+}
+.__attention > div > .text-notification-messege{
+    color: rgba(242, 201, 76, 0.5);
+}
+.__bank{
+    height: 116px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    background: rgba(30, 30, 30, 0.95);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.56);
+
+}
+.__bank > div > .title-text-notification-messege{
+    color: #D6D6D6;
+}
+.__bank > div > .text-notification-messege{
+    color: rgba(255, 255, 255, 0.56);
+}
+.__bank > div > .title-notification-messege{
+    color: rgba(255, 255, 255, 0.56);
+}
+.__bank-light > div > .title-text-notification-messege{
+    color: rgba(0, 0, 0, 0.56);
+}
+.__bank-light > div > .text-notification-messege{
+    color: rgba(0, 0, 0, 0.56);
+}
+.__bank-light > div > .title-notification-messege{
+    color: #373737;
+}
+.__bank-light{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.56);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+}
+.title-notification-messege{
+    top: 16px;
+    left: 52px;
+    font-size: 10px;
+    font-weight: 600;
+    
+}
+.icon-notification-messege{
+    width: 20px;
+    position: absolute;
+    top: 16px;
+    left:16px;
+}
+.text-notification-messege{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 16px;
+
+}
+.title-text-notification-messege{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    
+    
+}

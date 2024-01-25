@@ -1,0 +1,40 @@
+h5{
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: none;
+}
+.hud-main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/bg-hud.png');
+    background-size: 100vw 100vh;
+}
+.hud-position-leftTop{
+    width: 530px;
+    height: 216px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+.hud-position-leftBottom{
+    width: 676px;
+    height: 520px;
+    position: absolute;
+    bottom: 18px;
+    left: 18px;
+    overflow: hidden;
+}
+.hud-position-rightTop{
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 345px;
+    height: 730px;
+}
+.hud-position-rightBottom{
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}

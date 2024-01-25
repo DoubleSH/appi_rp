@@ -1,0 +1,124 @@
+
+.carinfo__content__nav {
+    user-select: none;
+    border: none;
+    outline: none;
+}
+
+.carinfo__content__nav__item {
+    border-radius: 5px;
+    width: 412px;
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.carinfo__content__nav__item:first-child {
+    margin-top: 0px;
+}
+
+.activenav {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.unactivenav {
+    background: rgba(217, 217, 217, 0.1);
+}
+
+.carinfo__content__nav__item__text_active {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E1E1E;    
+    box-sizing: border-box;
+}
+
+.carinfo__content__nav__item__text_unactive {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+}
+
+.carinfo_nav_item_oil_battery_mileage_container {
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.nav_item_battery_block {
+    border-radius: 5px;
+    width: 412px;
+    box-sizing: border-box;
+    padding-left: 26px;
+    padding-right: 26px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.nav_item_oil_block {
+    border-radius: 5px;
+    width: 412px;
+    height: 110px;
+    box-sizing: border-box;
+    padding-left: 26px;
+    padding-right: 26px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_item_mileage_block {
+    border-radius: 5px;
+    width: 412px;
+    height: 110px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.nav_item_battery_block_header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wrapper_bar_car_info {
+    width: 100%;
+}
+
+.nav_item_block_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-left: 15px;
+}
+
+.nav_item_block_value {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    margin-left: auto;
+}

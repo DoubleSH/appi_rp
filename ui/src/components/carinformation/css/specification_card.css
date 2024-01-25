@@ -1,0 +1,212 @@
+.scrollable_menu {
+    overflow-y: auto;
+}
+
+.scrollable_menu::-webkit-scrollbar {
+    width: 5px;
+  }
+    
+.scrollable_menu::-webkit-scrollbar-track {
+     background: rgba(255, 255, 255, 0.05);
+     border-radius: 50px;
+  }
+    
+.scrollable_menu::-webkit-scrollbar-thumb {
+     background: rgba(255, 255, 255, 0.25);
+     border-radius: 50px;
+ }
+ 
+
+.spec_card_conteiner {
+    width: 100%;
+    height: 98%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-left: 148px;
+}
+
+.spec_card_factory_info_penalties_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.spec_card_tech_law_info_block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 117px;
+}
+
+.spec_card_info_container {
+    width: 473px;
+    height: 60px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.15) 100%);
+    border-radius: 5px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.spec_card_info_container:first-child {
+    margin-top: 30px;
+}
+
+.spec_card_info_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.spec_card_info_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.spec_card__factory_info_header {
+    height: 55px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.spec_card_penalties_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.spec_card_penalties_text_amount {
+    display: flex;
+    flex-direction: column;
+}
+
+.spec_card__penalties_block {
+    margin-top: 45px;
+}
+
+.spec_card__law_info_block {
+    margin-top: 45px;
+}
+
+.spec_card__penalties_header {
+    height: 55px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.spec_card_penalties_info_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.spec_card_penalties_info_date {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color:  rgba(255, 255, 255, 0.5);
+}
+
+.spec_card_penalties_info_author {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color:  rgba(255, 255, 255, 0.5);
+}
+
+.spec_card_penalties_text_amount_sum {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: flex-end;
+}
+
+.spec_card_penalties_text_amount_paid {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.spec_card__tech_header {
+    height: 55px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.spec_card__law_info_header {
+    height: 55px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.spec_card_penalties_container {
+    width: 473px;
+    height: 90px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 20px;
+}
+
+.spec_card_penalties_container:first-child {
+    margin-top: 30px;
+}
+
+.paid {
+    background: linear-gradient(90deg, rgba(111, 207, 151, 0) 0%, rgba(111, 207, 151, 0.15) 100%);
+}
+
+.notpaid {
+    background: linear-gradient(90deg, rgba(235, 87, 87, 0) 0%, rgba(235, 87, 87, 0.15) 100%);
+}

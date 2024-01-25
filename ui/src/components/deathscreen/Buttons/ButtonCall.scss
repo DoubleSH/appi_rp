@@ -1,0 +1,73 @@
+@import "../_variables.scss";
+
+.ButtonCall {
+  display: flex;
+  height: get-vh(66px);
+
+  align-items: center;
+
+  background: #D53232;
+  color: #fff;
+
+  font-family: SFUIDisplay-Medium, sans-serif;
+  font-weight: 500;
+  font-size: get-vh(20px);
+
+  border-radius: get-vh(5px);
+
+  padding: 0 get-vh(33px);
+
+  position: relative;
+
+  &:hover {
+    background: #fff;
+    color: #D53232;
+  }
+  &:active {
+    background: #cdcdcd;
+  }
+
+  > svg {
+    width: get-vh(19px);
+    height: get-vh(19px);
+  }
+  &:hover > svg > path {
+    fill: #D53232;
+  }
+
+  > span {
+    margin-left: get-vh(10px);
+  }
+
+  > .hover {
+    display: none;
+    height: get-vh(28px);
+
+    align-items: center;
+
+    background: #fff;
+    color: #25272B;
+
+    font-family: SFUIDisplay-Medium, sans-serif;
+    font-weight: 500;
+    font-size: get-vh(14px);
+
+    border-radius: get-vh(5px);
+
+    padding: 0 get-vh(10px);
+
+    position: absolute;
+    top: calc(100% + #{get-vh(10px)});
+    left: 50%;
+    transform: translateX(-50%);
+
+    > svg {
+      width: get-vh(14px);
+      height: get-vh(14px);
+      margin-left: get-vh(5px);
+    }
+  }
+  &:hover > .hover {
+    display: flex;
+  }
+}

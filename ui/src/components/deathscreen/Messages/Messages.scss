@@ -1,0 +1,54 @@
+@import "../_variables.scss";
+
+.MessageCalled {
+  display: flex;
+  height: get-vh(66px);
+
+  align-items: center;
+
+  background: #fff;
+  color: #D53232;
+
+  font-family: SFUIDisplay-Medium, sans-serif;
+  font-weight: 500;
+  font-size: get-vh(20px);
+
+  border-radius: get-vh(5px);
+
+  padding: 0 get-vh(33px);
+  margin-top: get-vh(15px);
+
+  > svg {
+    width: get-vh(19px);
+    height: get-vh(19px);
+  }
+  > svg > path {
+    fill: #D53232;
+  }
+
+  > span {
+    margin-left: get-vh(10px);
+  }
+}
+
+.MessageCancelled {
+  display: flex;
+  align-items: center;
+
+  margin-top: get-vh(33px);
+
+  > svg {
+    width: get-vh(20px);
+    height: get-vh(20px);
+  }
+
+  > span {
+    color: #fff;
+
+    font-family: SFUIDisplay-Regular, sans-serif;
+    font-weight: 400;
+    font-size: get-vh(20px);
+
+    margin-left: get-vh(10px);
+  }
+}

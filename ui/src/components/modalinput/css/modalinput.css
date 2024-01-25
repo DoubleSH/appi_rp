@@ -1,0 +1,127 @@
+/* body {
+    background-color: #9a3f3f;
+} */
+.position-modal {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-input-modal {
+    width: 811px;
+    min-height: 170px;
+    box-sizing: border-box;
+    background: rgba(15, 15, 15, 0.75);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    padding: 30px 40px 34px 40px;
+    flex-direction: column;
+}
+
+.modal-box-m {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 17px;
+}
+
+.linear-input-modal-top1 {
+    width: 170px;
+    height: 6px;
+    background: #fff;
+    position: absolute;
+    right: 0px;
+    top: -4px;
+}
+
+.linear-input-modal-top2 {
+    width: 15px;
+    height: 6px;
+    background: #fff;
+    position: absolute;
+    right: 174px;
+    top: -4px;
+}
+
+.modal-b-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.modal-b-input {
+    width: -webkit-fill-available;
+    max-height: 795px;
+    min-height: 40px;
+    padding: 1rem;
+    height: 40px;
+    min-width: 540px;
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    margin-bottom: 0px !important;
+    resize: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.modal-box-input {
+    width: 579px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.modal-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    box-sizing: border-box;
+    background: #2481B6;
+    border-radius: 5px;
+    height: 100% !important;
+    padding: 0 2rem 0 2rem;
+    min-height: 100% !important;
+    max-height: 100% !important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.modal-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.input-meta-text {
+    width: 540px;
+    display: flex;
+    margin-left: 14px;
+    justify-content: flex-end;
+    font-family: 'Roboto';
+    margin-bottom: 7px;
+    font-size: 13px;
+}

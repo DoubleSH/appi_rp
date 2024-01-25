@@ -1,0 +1,48 @@
+@import "../_variables.scss";
+
+.ButtonCancel {
+  display: flex;
+  width: get-vh(66px);
+  height: get-vh(66px);
+
+  justify-content: center;
+  align-items: center;
+
+  background: #fff;
+  border-radius: 5px;
+
+  margin-left: get-vh(15px);
+
+  position: relative;
+
+  &:hover {
+    background: #25272B;
+  }
+
+  > svg {
+    width: get-vh(30px);
+    height: get-vh(30px);
+  }
+  &:hover > svg > path {
+    fill: #fff;
+  }
+
+  > span.hover {
+    display: none;
+
+    white-space: nowrap;
+    color: #fff;
+
+    font-family: SFUIDisplay-Regular, sans-serif;
+    font-weight: 400;
+    font-size: get-vh(20px);
+
+    position: absolute;
+    top: 50%;
+    left: calc(100% + #{get-vh(15px)});
+    transform: translateY(-50%);
+  }
+  &:hover > span.hover {
+    display: inline;
+  }
+}

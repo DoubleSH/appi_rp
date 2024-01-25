@@ -1,0 +1,363 @@
+
+
+.accountmenu__scrollable {
+    overflow-y: auto;
+}
+
+.accountmenu__scrollable::-webkit-scrollbar {
+   width: 5px;
+ }
+   
+ .accountmenu__scrollable::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50px;
+ }
+   
+ .accountmenu__scrollable::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 50px;
+}
+
+.accountmenu__content__cards__bitem {
+    display: flex;
+    height: 90%;
+    width: 32%;
+    padding-right: 17px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+
+.accountmenu__content__cards__title_single {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.35);    
+    display: flex;
+}
+
+.accountmenu__content__cards__sitem {
+    display: flex;
+    height: 90%;
+    width: 32%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.accountmenu__content__cards__litem {
+    display: flex;
+    height: 90%;
+    width: 33%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+
+.accountmenu__content__cards__container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.accountmenu__content__cards__container__help {
+    height: 40%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 5px;
+    padding-top: 7%;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.accountmenu__content__cards__title_heavy {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.accountmenu__content__cards__ptext {
+    font-family: 'Gotham Pro Regular';
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: center;
+}
+
+.accountmenu__content__cards__ptext__container {
+    margin-top: 1.5rem;
+    margin-bottom: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountmenu__content__cards__bigbutton_red {
+    background: #ED213A;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-shadow: 0 0 16px rgba(243, 85, 98, 0.34);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.accountmenu__content__cards__bigbutton_border_red {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background: #EB5757;
+    border-radius: 50px;
+}
+
+.accountmenu__content__cards__bigbutton_border_blue {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background: #2481B6;
+    border-radius: 50px;
+}
+
+.accountmenu__content__cards__bigbutton_disabled {
+    background: #5f5f5f;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-shadow: 0 0 16px rgba(168, 168, 168, 0.34);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.accountmenu__content__cards__bigbutton_green {
+    background: #36cc5c;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.accountmenu__content__cards__bigbutton_blue {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+    border: 0.5px solid rgba(255, 255, 255, 0.25);
+    box-sizing: border-box;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.accountmenu__content__cards__bigbutton__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.accountmenu__cards__question {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.1);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.accountmenu__cards__question:hover {
+    background: rgba(217, 217, 217, 0.2);
+}
+
+.accountmenu__cards__question:first-child {
+    margin-top: 0%;
+}
+
+.accountmenu__cards__question__active:first-child {
+    margin-top: 0%;
+}
+
+.accountmenu__cards__question__active {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #DDDDDD;   
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 5%;
+    cursor: pointer;
+    padding-right: 5%;
+    color: #1E1E1E;
+}
+
+.accountmenu__cards__question__icon {
+    
+    width: 100%;
+    height: auto;
+}
+
+.accountmenu__cards__question__text {
+    margin-left: 1.5rem;
+    width: 90%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.accountmenu__cards__question__icon__container {
+    width: 1.6rem;
+    padding: 2%;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accountmenu__cards__question__active .accountmenu__cards__question__text {
+    margin-left: 1.5rem;
+    width: 90%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.accountmenu__cards__question__active .accountmenu__cards__question__icon__container {
+    width: 1.6rem;
+    padding: 2%;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accountmenu__cards__question__active .accountmenu__cards__question__icon {
+    width: 100%;
+    height: auto;
+}
+
+.accountmenu__content__cards__answer__img {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 5%;
+    height: 225px;
+    border: 0.5px solid rgba(255, 255, 255, 0.25);
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/bg_faq_img.svg');
+}
+
+.accountmenu__cards__question__icon__container__active {
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 1%;
+}
+
+.accountmenu__cards__question__icon__active {
+    width: 100%;
+    height: auto;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.accountmenu__content__cards__answer__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.accountmenu__content__cards__answer__title__container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.accountmenu__content__cards__answer__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.accountmenu__content__cards__answer__li {
+    list-style-type: square;
+    padding-left: 10px;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    margin-left: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+ol .accountmenu__content__cards__answer__li::first-line {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.accountmenu__content___help__button_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,156 @@
+.fight-wrapper{
+    width: 100%;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 16px;
+}
+.fight-my-team{
+    width: 140px;
+    background: linear-gradient(90deg, rgba(81, 185, 240, 0.3) 0%, rgba(81, 185, 240, 0) 100%);
+    position: relative;
+
+}
+.fight-my-team > img{
+    position: absolute;
+    top:10px;
+    left: 26px;
+}
+.fight-my-team > .fight__count{
+    position: absolute;
+    top: 37px;
+    left: 20px;
+}
+.my-team__title{
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    color: rgba(81, 185, 240, 1);
+    z-index: 10;
+}
+.fight-my-team-win{
+    width: 303px;
+    background: linear-gradient(90deg, rgba(81, 185, 240, 0.3) 0%, rgba(81, 185, 240, 0) 100%);
+    position: relative;
+
+}
+.fight-my-team-win > img{
+    position: absolute;
+    top:10px;
+    left: 128px;
+}
+.fight-my-team-win > .fight__count-win{
+    position: absolute;
+    top: 37px;
+    left: 102px;
+   color: rgba(255, 255, 255, 1);
+    z-index: 20;
+}
+.my-team__title-win{
+    position: absolute;
+    top: 17px;
+    left: 64px;
+    color: rgba(81, 185, 240, 1);
+    z-index: 10;
+}
+.fight__count{
+   color: rgba(255, 255, 255, 1);
+   z-index: 10;
+
+}
+.fight-indicator{
+    width: 50px;
+    height: 50px;
+    
+    margin-top: 16px;
+   transform: rotate(-90deg );
+
+}
+.fight-circle-indicator{
+    margin: 1px 0 0 1px;
+}
+.fight-text-indicator{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.85);
+    position: relative;
+    bottom: 43px;
+    left: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   transform: rotate(90deg );
+   display: inline-block;
+   overflow: hidden;
+
+}
+.fight-enemy-team{
+    width: 140px;
+    background: linear-gradient(270deg, rgba(235, 87, 87, 0.3) 0%, rgba(235, 87, 87, 0) 100%);
+    
+}
+.fight-enemy-team > img{
+    position: absolute;
+    top:11px;
+    right: 12px;
+}
+.enemy-team-title{
+    position: absolute;
+    top:17px;
+    right: 20px;
+    color: rgba(235, 87, 87, 1);
+    
+}
+.fight-enemy-team > .fight__count{
+    position: absolute;
+    top:37px;
+    right: 20px;
+}
+
+
+.fight-enemy-team-win{
+    width: 303px;
+    background: linear-gradient(270deg, rgba(235, 87, 87, 0.3) 0%, rgba(235, 87, 87, 0) 100%);
+    
+}
+.fight-enemy-team-win > img{
+    position: absolute;
+    top:11px;
+    right: 125px;
+}
+.enemy-team-title-win{
+    position: absolute;
+    top:17px;
+    right: 59px;
+    color: rgba(235, 87, 87, 1);
+    
+}
+.fight-enemy-team-win > .fight__count-win{
+   color: rgba(255, 255, 255, 1);
+
+    position: absolute;
+    top:37px;
+    right: 119px;
+}
+
+
+
+.fight-none{
+    width: 303px;
+    background: radial-gradient(50% 240.85% at 50% 50%, rgba(126, 126, 126, 0.3) 0%, rgba(113, 113, 113, 0) 100%);
+}
+.fight-none-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 82px;
+    align-items: center;
+    text-align: center;
+
+    color: #D6D6D6;
+}

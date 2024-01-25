@@ -1,0 +1,226 @@
+
+
+.car_scheme_container_3axis img {
+    pointer-events: all;
+}
+
+.enternal_card_conteiner_3axis {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.car_scheme_container_3axis {
+    width: 323px;
+    height: 697px;
+    background: url(../icons/enternal_card/scheme3axle.png) no-repeat;
+    margin-left: 82px;
+}
+
+.left_1_wheel_3axis {
+    position: absolute;
+    margin-top: 69px;
+    margin-left: 25px;
+    z-index: 0;
+    
+}
+
+.left_1_brake_3axis {
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 65px;
+    clip-path: polygon(4% 100%, 4% 96%, 0% 96%, 0% 54%, 4% 54%, 4% 40%, 23% 39%, 36% 30%, 40% 17%, 49% 8%, 56% 2%, 61% 0%, 65% 0%, 68% 4%, 75% 10%, 79% 14%, 68% 25%, 63% 29%, 64% 37%, 63% 43%, 63% 53%, 56% 53%, 57% 62%, 91% 62%, 100% 62%, 100% 80%, 57% 81%, 57% 85%, 37% 86%, 36% 100%);
+    z-index: 0;
+}
+
+.left_2_wheel_3axis {
+    position: absolute;
+    margin-top: 477px;
+    margin-left: 33px;
+    z-index: 0;
+}
+
+.left_2_brake_3axis {
+    position: absolute;
+    margin-top: 499px;
+    margin-left: 71px;
+    clip-path: polygon(36% 74%, 36% 100%, 4% 100%, 4% 92%, 0% 92%, 0% 22%, 4% 21%, 5% 0%, 24% 0%, 34% 2%, 41% 5%, 46% 7%, 51% 9%, 56% 11%, 57% 26%, 57% 35%, 64% 36%, 70% 36%, 77% 36%, 85% 36%, 91% 36%, 97% 36%, 100% 37%, 100% 44%, 100% 52%, 100% 58%, 100% 65%, 100% 68%, 90% 67%, 78% 67%, 68% 67%, 57% 67%, 57% 74%);
+    z-index: 0;
+}
+
+.left_3_wheel_3axis {
+    position: absolute;
+    margin-left: 32px;
+    margin-top: 576px;
+}
+
+.left_3_brake_3axis {
+    position: absolute;
+    margin-left: 72px;
+    margin-top: 601px;
+    clip-path: polygon(58% 67%, 70% 66%, 81% 67%, 91% 65%, 99% 68%, 100% 63%, 100% 56%, 100% 46%, 100% 36%, 96% 33%, 90% 33%, 82% 33%, 73% 34%, 65% 33%, 60% 32%, 57% 30%, 54% 24%, 49% 23%, 42% 24%, 38% 23%, 32% 21%, 28% 17%, 23% 12%, 18% 9%, 13% 5%, 9% 0%, 3% 0%, 0% 0%, 0% 7%, 0% 13%, 0% 21%, 0% 32%, 0% 47%, 0% 57%, 0% 64%, 0% 73%, 0% 78%, 2% 83%, 2% 89%, 2% 96%, 3% 100%, 5% 100%, 15% 100%, 21% 100%, 27% 100%, 35% 100%, 39% 100%, 46% 96%, 51% 94%, 55% 92%, 58% 89%);
+}
+
+.right_1_wheel_3axis {
+    position: absolute;
+    margin-top: 69px;
+    margin-left: 258px;
+    z-index: 0;
+}
+
+.right_1_brake_3axis {
+    position: absolute;
+    margin-left: 184px;
+    margin-top: 58px;
+    clip-path: polygon(63% 86%, 42% 86%, 43% 81%, 35% 81%, 26% 81%, 13% 81%, 0% 81%, 0% 74%, 0% 68%, 0% 62%, 8% 61%, 18% 62%, 25% 62%, 34% 62%, 42% 62%, 43% 53%, 37% 52%, 36% 48%, 36% 43%, 36% 37%, 36% 31%, 34% 27%, 29% 24%, 25% 20%, 22% 16%, 20% 13%, 24% 10%, 27% 7%, 30% 4%, 34% 2%, 37% 0%, 41% 0%, 45% 3%, 49% 6%, 53% 9%, 57% 12%, 60% 16%, 62% 22%, 64% 29%, 69% 32%, 73% 35%, 77% 38%, 83% 39%, 90% 39%, 96% 39%, 97% 44%, 98% 49%, 97% 53%, 100% 55%, 100% 59%, 100% 65%, 100% 72%, 100% 78%, 100% 84%, 100% 89%, 100% 95%, 97% 97%, 96% 100%, 90% 100%, 84% 100%, 77% 100%, 70% 100%, 63% 100%);
+    z-index: 0;
+}
+
+.right_2_wheel_3axis {
+    position: absolute;
+    margin-left: 251px;
+    margin-top: 477px;
+    z-index: 0;    
+}
+
+.right_2_brake_3axis {
+    position: absolute;
+    margin-left: 177px;
+    margin-top: 499px;
+    clip-path: polygon(62% 77%, 47% 76%, 43% 76%, 43% 69%, 43% 66%, 39% 67%, 32% 68%, 27% 68%, 21% 68%, 16% 67%, 9% 67%, 4% 68%, 1% 67%, 0% 65%, 0% 59%, 0% 51%, 0% 42%, 0% 35%, 6% 35%, 14% 34%, 20% 35%, 28% 36%, 34% 35%, 39% 35%, 42% 35%, 43% 29%, 43% 23%, 43% 16%, 43% 11%, 46% 9%, 50% 7%, 54% 5%, 60% 4%, 64% 2%, 68% 0%, 72% 0%, 76% 0%, 80% 0%, 86% 0%, 90% 0%, 93% 0%, 96% 0%, 97% 5%, 97% 11%, 97% 16%, 97% 20%, 99% 22%, 100% 25%, 100% 29%, 100% 34%, 100% 41%, 100% 48%, 100% 54%, 100% 64%, 100% 71%, 100% 76%, 100% 81%, 100% 87%, 100% 93%, 96% 93%, 96% 97%, 95% 100%, 92% 100%, 89% 100%, 86% 100%, 82% 100%, 78% 100%, 71% 100%, 66% 100%, 62% 100%);
+    z-index: 0;
+}
+
+.right_3_wheel_3axis {
+    position: absolute;
+    margin-left: 251px;
+    margin-top: 576px;
+}
+
+.right_3_brake_3axis {
+    position: absolute;
+    margin-top: 601px;
+    margin-left: 177px;
+    clip-path: polygon(43% 62%, 40% 63%, 36% 64%, 31% 65%, 25% 65%, 23% 64%, 19% 64%, 14% 64%, 10% 64%, 3% 64%, 0% 64%, 0% 61%, 0% 53%, 0% 47%, 0% 42%, 0% 36%, 0% 34%, 4% 34%, 9% 34%, 15% 34%, 22% 34%, 28% 34%, 35% 35%, 40% 34%, 44% 35%, 44% 29%, 46% 25%, 50% 26%, 57% 26%, 64% 26%, 67% 23%, 75% 16%, 79% 11%, 83% 7%, 88% 3%, 90% 2%, 93% 0%, 96% 0%, 96% 5%, 98% 8%, 100% 9%, 100% 13%, 100% 19%, 100% 26%, 100% 39%, 100% 49%, 100% 61%, 100% 70%, 100% 76%, 100% 80%, 97% 82%, 97% 88%, 96% 94%, 97% 99%, 95% 100%, 91% 100%, 88% 100%, 82% 100%, 79% 100%, 76% 100%, 73% 100%, 68% 100%, 62% 99%, 58% 96%, 52% 94%, 47% 92%, 44% 89%, 44% 81%, 44% 70%);
+}
+
+.electronic_3axis {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 32px;
+    clip-path: polygon(57% 91%, 50% 95%, 45% 98%, 40% 100%, 33% 100%, 33% 97%, 29% 94%, 26% 92%, 22% 88%, 19% 84%, 14% 80%, 11% 76%, 7% 71%, 2% 67%, 0% 61%, 0% 57%, 2% 55%, 4% 52%, 8% 49%, 12% 45%, 21% 35%, 29% 27%, 40% 16%, 46% 11%, 51% 5%, 55% 2%, 59% 0%, 62% 0%, 66% 2%, 70% 6%, 75% 10%, 80% 15%, 85% 19%, 91% 24%, 94% 29%, 99% 33%, 100% 39%, 100% 44%, 96% 48%, 90% 54%, 84% 61%, 78% 66%, 70% 76%, 61% 84%);
+    z-index: 0;
+}
+
+.fuel_generator_3axis {
+    position: absolute;
+    margin-left: 187px;
+    margin-top: 142px;
+    z-index: 1;
+    clip-path: polygon(18% 1%, 18% 4%, 18% 7%, 18% 11%, 19% 15%, 18% 20%, 18% 24%, 19% 28%, 18% 32%, 19% 36%, 19% 41%, 19% 46%, 18% 50%, 19% 54%, 19% 59%, 18% 63%, 18% 67%, 18% 71%, 19% 74%, 19% 76%, 28% 76%, 36% 76%, 45% 76%, 53% 76%, 63% 76%, 73% 76%, 85% 76%, 90% 78%, 92% 80%, 89% 82%, 90% 84%, 93% 86%, 96% 88%, 98% 90%, 100% 92%, 100% 94%, 96% 95%, 88% 95%, 81% 94%, 74% 95%, 66% 95%, 59% 95%, 58% 97%, 58% 99%, 57% 100%, 51% 100%, 43% 100%, 30% 100%, 15% 100%, 3% 100%, 0% 99%, 0% 95%, 0% 93%, 0% 90%, 0% 87%, 0% 83%, 0% 80%, 0% 78%, 2% 76%, 2% 73%, 2% 70%, 1% 67%, 2% 64%, 2% 60%, 2% 56%, 2% 52%, 2% 48%, 1% 44%, 2% 38%, 2% 33%, 2% 28%, 2% 24%, 2% 19%, 2% 15%, 2% 12%, 2% 9%, 2% 6%, 2% 4%, 2% 1%, 1% 0%, 8% 0%, 16% 0%, 20% 0%);
+}
+
+.transmition_3axis {
+    position: absolute;
+    margin-left: 138px;
+    margin-top: 200px;
+}
+
+.engine_3axis {
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 41px;
+    z-index: 1;
+}
+
+.car_info_blocks_conteiner {
+    height: 696px;
+    width: 856px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.car_info_blocks_conteiner_first_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.car_info_blocks_conteiner_second_column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.enternal_items_info_container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    width: 413px;
+    height: 220px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+.greate {
+    background: rgba(111, 207, 151, 0.15);
+}
+
+.normal {
+    background: rgba(242, 201, 76, 0.15);
+}
+
+.bad {
+    background: rgba(235, 87, 87, 0.15);
+}
+
+.destroyed {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url(../icons/enternal_card/containers_icons_enternal_items/bg_destroyed.svg);
+    background-size: cover;
+}
+
+.enternal_items_info_container_header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: center;
+}
+
+.enternal_items_info_state_of_item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.enternal_items_info_container_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+}
+
+.enternal_items_info_container_text_wheels {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}

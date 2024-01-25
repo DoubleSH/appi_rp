@@ -1,0 +1,32 @@
+.inter-menu {
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 260px;
+    position: absolute;
+    z-index: 1;
+    padding: 1rem;
+}
+
+.inter-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin-bottom: 5px;
+    padding: 0 0.25rem 0 0.25rem;
+    background: rgba(49, 49, 49, 0.95);
+}
+
+.inter-box:hover {
+    background: rgba(69, 69, 69, 0.95);
+    box-sizing: border-box;
+    color: #fff !important;
+}
