@@ -17,7 +17,6 @@
     "jquery": "^3.6.0",
     "material-icons-react": "^1.0.4",
     "material-table": "^1.69.3",
-    "node-sass": "^7.0.3",
     "noty": "^3.2.0-beta-deprecated",
     "react": "^16.11.0",
     "react-addons-css-transition-group": "^15.6.2",
@@ -59,6 +58,7 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^9.13.0",
     "sass": "^1.55.0"
   }
 }
